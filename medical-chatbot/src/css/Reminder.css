@@ -1,0 +1,57 @@
+/* Reminder.css */
+
+.reminder-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.reminder-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.reminder-list {
+  list-style: none;
+  padding: 0;
+}
+
+.reminder-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.reminder-item button {
+  background-color: #ff5a5f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.reminder-item button:hover {
+  background-color: #d63438;
+}
+
+.reminder-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.add-reminder-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.add-reminder-btn:hover {
+  background-color: #0056b3;
+}

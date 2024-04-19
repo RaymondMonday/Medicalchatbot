@@ -1,0 +1,91 @@
+.slider-image-container {
+  width: 100%;
+  height: auto;
+}
+
+.slider-image {
+  width: 100%;
+  height: auto;
+}
+
+.bot-main-Button{
+  color: #ccc;
+  font-weight: 500;
+  font-size: larger;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: black;
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.App-header {
+  background-color: #3498db;
+  flex-direction: column;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.ChatPopup {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.ChatPopup.show {
+  display: block;
+}
+
+.ChatIcon {
+  cursor: pointer;
+  padding: 10px;
+}
+
+/* Adjust the size of the chatbot icon image for responsiveness */
+.ChatIcon img {
+  width: 100px;
+  height: 100px;
+  border: solid 2pt red;
+}
+
+/* Media query for responsiveness */
+@media only screen and (max-width: 768px) {
+  .App-header {
+    padding: 10px; /* Adjust header padding for smaller screens */
+  }
+
+  h1 {
+    font-size: 1.5em; /* Decrease title font size for smaller screens */
+  }
+
+  p {
+    font-size: 1em; /* Decrease paragraph font size for smaller screens */
+  }
+
+  .ChatPopup {
+    bottom: 10px; /* Adjust chat popup position for smaller screens */
+    left: 10px;
+  }
+
+  .bot-main-Button{
+    width: 85%;
+    color: #ccc;
+  }
+}

@@ -1,0 +1,80 @@
+.popup {
+    position: fixed;
+    top: 0; 
+    right: 0; 
+    width: 300px; 
+    height: 100%; 
+    background-color: #d0d0d0; 
+    border-left: 1px solid #ccc; 
+    box-shadow: -2px 0 5px rgba(0, 185, 12, 0.2); 
+    
+  }
+  
+
+
+  .bot-main-Button{
+    width: 80rem;
+    padding: 1rem ;
+    margin: 2rem;
+    background-color: #008ce3;
+
+  }
+  .popup-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .popup-header {
+    background-color: #bcbcbc;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .popup-title {
+    font-weight: bold;
+  }
+  
+  .close-btn {
+    cursor: pointer;
+  }
+  
+  .popup-body {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat-messages {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .user-message {
+    margin-bottom: 5px;
+  }
+  
+  .chatbot-message {
+    margin-bottom: 5px;
+    color: #008ce3;
+  }
+  
+  input {
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  .send{
+    margin-top: 5px;
+    padding: 1rem;
+    background-color: #008ce3;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  
